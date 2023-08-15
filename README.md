@@ -6,5 +6,4 @@ Proyecto final de programacion 3 2021-2378
 4. tiempo estimado de prueba es de 50 seg
 
 
-![Pagina web](Aplicacion/img/Screenshot 2023-08-15 191240.png)
-![Prueba 1](Automatizacion/capturas/test_01_inicio_de_sesion_valido.png)
+![Pagina web](Aplicacion/img/web.png)
