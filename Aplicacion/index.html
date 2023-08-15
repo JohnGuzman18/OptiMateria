@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccion de materias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./stylo.css">
+
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row mt-2">
+        <div class="col-4 offset-4">
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                <ol class="breadcrumb" id="ol-actual-page">
+                  <li class="breadcrumb-item active" aria-current="page"><a href="#">Home</a></li>
+                </ol>
+              </nav>
+        </div>
+        </div>
+
+<!-- Formulario -->
+    <div class="row">
+        
+        <div class="col-4 offset-4" id="container1" >
+            <div class="card">
+                <div class="card-header bg-secondary text-white text-center">
+                    <h4 class="text-center">Ingrese sus datos</h4>
+                </div>
+                <div class="card-body">
+                 
+                
+                  
+<form id="formulario" onsubmit="return false;" class="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label for="inputNombre" class="form-label">Nombre: </label>
+                        <input type="text" class="form-control" id="inputNombre" />
+                      </div>
+
+                    <div class="mb-3">
+                        <label for="inputProvincia" class="form-label">Provincia: </label>
+                        <input type="text" class="form-control" id="inputProvincia" />
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="inputCiudad" class="form-label">Ciudad: </label>
+                        <input type="text" class="form-control" id="inputCiudad" />
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="inputSector" class="form-label">Sector: </label>
+                        <input type="text" class="form-control" id="inputSector" />
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="inputCalle" class="form-label">Calle: </label>
+                        <input type="text" class="form-control" id="inputCalle" />
+                      </div>
+                      
+                      <label class="form-label" for="Carreras">Carreras: </label>
+                      
+                      <select class="form-control" name="Carreras" id="inputCarreras">
+                        <option value="Software">Software</option>
+                        <option value="Multimedia">Multimedia</option>
+                        <option value="Mecatronica">Mecatronica</option>
+                      </select>
+                    </form>
+                      <button class="btn btn-secondary mt-2 float-end m-lg-2" id="btn-siguiente">Siguiente</button>
+                      <button class="btn btn-warning mt-2 float-end m-lg-2 " id="btn-limpiar">Limpiar</button>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="col-md-4 offset-4" id="container2"></div>
+        <div class="col-md-6 offset-3" id="container3"></div>
+    </div>
+ 
+</div>    
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+</html>
